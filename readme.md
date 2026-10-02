@@ -35,6 +35,9 @@ When using Double Buffering, unstable frame rates may cause FPSLocker to wait fo
 ## 超频建议  
 ## Overclock Recommendation
 
+在默认掌机模式功耗限制下，部分场景可能会下降至45-50FPS。  
+With default handheld mode power limits, some areas may drop to around 45-50FPS.
+
 建议开启超频以获得更稳定的60FPS体验。  
 Overclocking is recommended for a more stable 60FPS experience.
 
@@ -47,8 +50,6 @@ GPU：998MHz
 
 Memory: 1666MHz
 
-在默认掌机模式功耗限制下，部分场景可能会下降至45-50FPS。  
-With default handheld mode power limits, some areas may drop to around 45-50FPS.
 
 以上超频设置预计续航约2.5小时，实际时间会根据设备状态和游戏场景有所变化。  
 With this overclock configuration, estimated battery life is around 2.5 hours, depending on device condition and gameplay scenarios.
