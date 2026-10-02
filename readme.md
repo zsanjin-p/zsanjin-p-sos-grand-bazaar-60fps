@@ -61,13 +61,10 @@ With this overclock configuration, estimated battery life is around 2.5 hours, d
 补丁已在以下环境测试通过：  
 The patch has been successfully tested on the following setup:
 
-系统版本：21.2.0  
 System Version: 21.2.0
 
-Horizon OC：v2.5.1  
 Horizon OC: v2.5.1
-
-FPSLocker：v3.4.0  
+ 
 FPSLocker: v3.4.0
 
 ---
