@@ -42,12 +42,9 @@ Overclocking is recommended for a more stable 60FPS experience.
 Tested with the Horizon OC plugin.
 
 CPU：1963MHz  
-CPU: 1963MHz
 
 GPU：998MHz  
-GPU: 998MHz
 
-内存：1666MHz  
 Memory: 1666MHz
 
 在默认掌机模式功耗限制下，部分场景可能会下降至45-50FPS。  
