@@ -110,9 +110,9 @@ GPU: 998MHz
 
 Memory: 1666MHz
 
-以上超频设置预计续航约2.5小时，实际时间会根据设备状态、电池健康度以及游戏场景有所变化。
+以上超频设置预计续航约2.5小时
 
-With this overclock configuration, estimated battery life is around 2.5 hours. Actual battery life may vary depending on device condition, battery health, and gameplay scenarios.
+With this overclock configuration, estimated battery life is around 2.5 hours.
 
 ---
 
