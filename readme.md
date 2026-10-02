@@ -18,41 +18,54 @@ This patch removes the original 30FPS limitation and allows a smoother gameplay 
 
 ---
 
-## 使用说明  
-## Usage
+# 使用说明  
+# Usage
 
-需要搭配 nx-fps（FPSLocker）使用。  
-This patch requires nx-fps (FPSLocker) to work.
+## 安装补丁  
+## Patch Installation
 
-推荐FPSLocker设置：开启3重缓冲，并打开掌机模式同步刷新率。  
-Recommended FPSLocker settings: Enable Triple Buffering and Sync Refresh Rate in Handheld Mode.
+1. 下载并解压补丁压缩包。
 
-如果使用2重缓冲，当游戏帧率不稳定时，FPSLocker可能会等待下一次刷新周期，从而导致游戏重新锁定到30FPS。  
-When using Double Buffering, unstable frame rates may cause FPSLocker to wait for the next refresh cycle, resulting in the game being locked back to 30FPS.
+   Download and extract the patch archive.
+
+2. 将压缩包内的 `atmosphere` 文件夹复制到 Nintendo Switch SD 卡根目录。
+
+   Copy the `atmosphere` folder from the archive to the root directory of your Nintendo Switch SD card.
+
+3. 如果 SD 卡中已经存在 `atmosphere` 文件夹，请选择合并文件夹，并覆盖同名文件。
+
+   If an `atmosphere` folder already exists on your SD card, merge the folders and overwrite existing files when prompted.
+
+4. 启动游戏即可自动加载补丁。
+
+   Launch the game and the patch will be applied automatically.
 
 ---
 
-## 超频建议  
-## Overclock Recommendation
+# FPSLocker 设置  
+# FPSLocker Settings
 
-在默认掌机模式功耗限制下，部分场景可能会下降至45-50FPS。  
-With default handheld mode power limits, some areas may drop to around 45-50FPS.
+本补丁需要搭配 nx-fps（FPSLocker）使用。
 
-建议开启超频以获得更稳定的60FPS体验。  
-Overclocking is recommended for a more stable 60FPS experience.
+This patch requires nx-fps (FPSLocker).
 
-测试使用 Horizon OC 插件。  
-Tested with the Horizon OC plugin.
+推荐设置：
 
-CPU：1963MHz  
+Recommended settings:
 
-GPU：998MHz  
+- 开启三重缓冲（Triple Buffering）
+- 开启同步刷新率（Sync Refresh Rate）
+- 目标帧率设置为 60FPS
 
-Memory: 1666MHz
+Recommended:
 
+- Enable **Triple Buffering**
+- Enable **Sync Refresh Rate**
+- Set target FPS to **60FPS**
 
-以上超频设置预计续航约2.5小时，实际时间会根据设备状态和游戏场景有所变化。  
-With this overclock configuration, estimated battery life is around 2.5 hours, depending on device condition and gameplay scenarios.
+如果使用二重缓冲，当游戏帧率不稳定时，FPSLocker 可能会等待下一次刷新周期，从而导致游戏重新锁定到30FPS。  
+
+When using Double Buffering, unstable frame rates may cause FPSLocker to wait for the next refresh cycle, resulting in the game being locked back to 30FPS.
 
 ---
 
